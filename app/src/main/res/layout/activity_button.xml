@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activityes.ButtonActivity">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivBackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/first_screen_background" />
+
+        <!--    top button-->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnTopLeft"
+            android:layout_width="@dimen/_95sdp"
+            android:layout_height="@dimen/_33sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/top_button_bg"
+            android:foreground="?attr/selectableItemBackground"
+            android:gravity="center"
+            android:text="@string/jacob"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/text_button_color"
+            android:textSize="@dimen/_13ssp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="UnusedAttribute" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnTopRight"
+            android:layout_width="@dimen/_95sdp"
+            android:layout_height="@dimen/_33sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/top_button_bg"
+            android:foreground="?attr/selectableItemBackground"
+            android:gravity="center"
+            android:text="@string/alfie"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/text_button_color"
+            android:textSize="@dimen/_13ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="UnusedAttribute" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivAndroidBtn"
+            android:layout_width="@dimen/_180sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_android"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvClickMessage"
+            android:layout_width="@dimen/_180sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:background="@color/textview_color"
+            android:includeFontPadding="false"
+            android:text="@string/click_message"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.39" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvAndroidMessage"
+            android:layout_width="@dimen/_180sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:background="@color/textview_color"
+            android:includeFontPadding="false"
+            android:text="@string/click_message"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!--    bottom button-->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnBottomLeft"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_33sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/bottom_button_bg"
+            android:foreground="?attr/selectableItemBackground"
+            android:gravity="center"
+            android:text="@string/arthur"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/text_button_color"
+            android:textSize="@dimen/_13ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="UnusedAttribute" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnBottomRight"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_33sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/bottom_button_bg"
+            android:foreground="?attr/selectableItemBackground"
+            android:gravity="center"
+            android:text="@string/harry"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/text_button_color"
+            android:textSize="@dimen/_13ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="UnusedAttribute" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

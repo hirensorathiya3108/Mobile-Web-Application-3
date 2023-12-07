@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">MobileWeb - 3</string>
+
+    <!--    Home screen string start-->
+    <string name="multi_button">Multi button screen</string>
+    <string name="countries_cities">Countries and Cities</string>
+    <string name="scrolling_screen">Catalog Screen</string>
+    <string name="login_screen">Login Screen</string>
+    <string name="calculator">Calculator</string>
+    <!--    Home screen string end-->
+
+    <!--    button screen string start-->
+    <string name="jacob">Jacob</string>
+    <string name="alfie">Alfie</string>
+    <string name="arthur">Arthur</string>
+    <string name="harry">Harry</string>
+    <string name="android_click_message">You clicked on Android Button!</string>
+    <string name="click_message">You messaged to %s</string>
+    <!--    button screen string end-->
+
+    <!--    CountriesCity screen string start-->
+    <string name="select_country_visit_text">Select a country you will enjoy to visit soon:</string>
+    <string name="select_city_visit_text">Select the City you want to visit first:</string>
+    <string name="lesotho">Lesotho</string>
+    <string name="botswana">Botswana</string>
+    <string name="namibia">Namibia</string>
+    <string name="submit">Submit</string>
+    <string name="items_label">City</string>
+    <string name="selected_country">Selected Country : %s</string>
+    <string name="selected_city">Selected City : %s</string>
+    <string name="not_selected_message">Country or City is not selected</string>
+    <!--    CountriesCity screen string end-->
+
+    <!--    Login screen string start-->
+    <string name="enter_value_message">Please enter your username and password</string>
+    <string name="enter_username">Enter your username</string>
+    <string name="enter_password">Enter your password</string>
+    <string name="Attempts_left">Attempts Left: %s</string>
+    <string name="login">Login</string>
+    <string name="clear">Clear</string>
+    <string name="character_username_error">Username must be at least 4 characters</string>
+    <string name="character_password_error">Password must be at least 4 characters</string>
+    <string name="toggle_password_visibility">Toggle Password Visibility</string>
+    <string name="welcome">Welcome,</string>
+    <string name="login_successfully_message">You have successfully logged in.</string>
+    <string name="log_out">Log out</string>
+    <!--    Login screen string end-->
+
+    <!--    Catalog screen string start-->
+    <string name="title1">Bald eagle</string>
+    <string name="title2">American alligator</string>
+    <string name="title3">Coyote</string>
+    <string name="title4">Hawaiian monk seal</string>
+    <string name="title5">American black bear</string>
+    <string name="desc1">Bald eagles are large, predatory raptors that are recognizable for their brown body and wings, white head and tail, and hooked yellow beak. Their feet, which are also yellow, are equipped with sharp black talons.</string>
+    <string name="desc2">American alligators are large crocodilians found only in the United States. They can grow to be more than 12 feet (3.6 meters) in length and weigh as much as 1,000 pounds (450 kilograms), with males being slightly larger than females on average. The animal\'s dark skin is armored with small, bony scales called scutes.</string>
+    <string name="desc3">Coyotes are medium in size. They have pointed muzzles and long, brushy tails. Their coats are usually a mixture of tan, black, and gray, but can range from black to strawberry blond. The average Eastern adult coyote weighs 30 to 35 pounds, with males being heavier than females.</string>
+    <string name="desc4">Hawaiian monk seals are born at about 35 pounds and 3 feet long, sporting a black coat of fur. As pups age, they shed this dark fur for a silvery-gray coat, with lighter creamy coloration on their underside. Additional light patches and red and green tinged coloration from attached algae are common among adults.</string>
+    <string name="desc5">Unlike its name suggests, a black bear\'s fur ranges from grey to blue-grey, black, cinnamon and even white! Adults are between 1.5 and 1.8 m (5–6 ft) long and can weigh between 90 and 272 kg (200–600 lbs). While this may sound large, black bears are the smallest North American bear.</string>
+    <string name="go_back">Go Back</string>
+    <!--    Catalog screen string end-->
+
+    <!--    Catalog screen string end-->
+    <string name="title">Calculator with chain of operations</string>
+    <!--    Catalog screen string end-->
+
+</resources>
