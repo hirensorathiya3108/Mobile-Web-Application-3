@@ -6,28 +6,28 @@
 
     <!--    button screen color start-->
     <color name="text_button_color">@color/white</color>
-    <color name="top_button_color">#fe5722</color>
-    <color name="bottom_button_color">#ea1e63</color>
-    <color name="textview_color">#512da7</color>
+    <color name="top_button_color">#d30000</color>
+    <color name="bottom_button_color">#d30000</color>
+    <color name="textview_color">#33b5e5</color>
     <!--    button screen color end-->
 
     <!--    CountriesCity screen color start-->
     <color name="text_black_color">@color/black</color>
-    <color name="select_country_text_color">#b67bd3</color>
-    <color name="country_name_color">#bf360c</color>
-    <color name="purple_button_color">#6750a4</color>
+    <color name="select_country_text_color">#009f24</color>
+    <color name="country_name_color">#FF000000</color>
+    <color name="yellow_button_color">#FFC400</color>
     <!--    CountriesCity screen color end-->
 
     <!--    Login screen color start-->
     <color name="blue_text_color">#0099cc</color>
-    <color name="blue_button_color">#33b5e5</color>
+    <color name="blue_button_color">#d30000</color>
     <color name="red_text_color">#bb3d36</color>
     <!--    Login screen color end-->
 
     <!--    Calculator screen color start-->
     <color name="window_background">#FFFFFFFF</color>
     <color name="io_background">#F9F9F9</color>
-    <color name="green">#4ea043</color>
+    <color name="yellow">#FFC400</color>
     <color name="red">#d14f4f</color>
     <color name="text_main">#FF000000</color>
     <!--    Calculator screen color end-->

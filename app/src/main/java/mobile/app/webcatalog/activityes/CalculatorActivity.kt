@@ -120,7 +120,7 @@ class CalculatorActivity : AppCompatActivity() {
             } else {
                 // Show Result
                 binding.output.text = DecimalFormat("0.######").format(result).toString()
-                binding.output.setTextColor(ContextCompat.getColor(this, R.color.green))
+                binding.output.setTextColor(ContextCompat.getColor(this, R.color.yellow))
             }
         } catch (e: Exception) {
             // Show Error Message

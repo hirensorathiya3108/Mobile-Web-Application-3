@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
-            android:src="@drawable/first_screen_background" />
+            android:src="@drawable/ic_first_screen_background_2" />
 
         <!--    top button-->
         <androidx.appcompat.widget.AppCompatButton

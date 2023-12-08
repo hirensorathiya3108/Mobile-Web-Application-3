@@ -75,7 +75,7 @@
                         android:layout_gravity="center"
                         android:enabled="true"
                         android:layout_marginEnd="@dimen/_5sdp"
-                        android:backgroundTint="@color/purple_button_color"
+                        android:backgroundTint="@color/yellow_button_color"
                         android:gravity="center" />
 
                     <androidx.appcompat.widget.AppCompatTextView
@@ -107,7 +107,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginEnd="@dimen/_5sdp"
-                        android:backgroundTint="@color/purple_button_color"
+                        android:backgroundTint="@color/yellow_button_color"
                         android:gravity="center" />
 
                     <androidx.appcompat.widget.AppCompatTextView
@@ -138,7 +138,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginEnd="@dimen/_5sdp"
-                        android:backgroundTint="@color/purple_button_color"
+                        android:backgroundTint="@color/yellow_button_color"
                         android:gravity="center" />
 
                     <androidx.appcompat.widget.AppCompatTextView

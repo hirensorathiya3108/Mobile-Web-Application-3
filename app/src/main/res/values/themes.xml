@@ -3,6 +3,7 @@
     <style name="Base.Theme.MobileWebApplicationDevelopment" parent="Theme.Material3.Light.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/top_button_color</item>
     </style>
 
     <style name="Theme.MobileWebApplicationDevelopment" parent="Base.Theme.MobileWebApplicationDevelopment" />
